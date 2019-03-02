@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Registration </title>
+</head>
+<body>
+	<h1>Hotel Reservation Form</h1>
+	<fieldset>
+	<legend>Reservation information</legend>
+
+	
+	<label>Number of Rooms: </label>
+	<input type="number" name="number">
+
+	<p>
+		<form>
+		<label>Smoker? </label>
+	
+	<label> Yes </label><input type="radio" name="Yes">
+	<label> No </label><input type="radio" name="Yes">
+	</form>
+
+	<p>
+		<label>Check-in date:</label>
+		<input type="date" name="chckin">
+	</p>
+
+	<p>
+		<label>Check-out date:</label>
+		<input type="date" name="chckout">
+	</p>
+	</fieldset>
+
+	<fieldset>
+	<legend>Room specifications</legend>
+
+	<label>Room size: </label>
+
+	<p>
+		<form>
+		<label>Small single:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Regular single:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Regular double:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Large single:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Large double:</label>
+		<input type="checkbox" name="checkbox">
+		</form>
+
+
+	<label>Location: </label>
+	<p>
+		<form>
+		<label>Downtown:</label>
+		<input type="checkbox" name="checkbox">
+		<label>NDG:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Le Plateau:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Old Montreal</label>
+		<input type="checkbox" name="checkbox">
+		<label> Little Italy:</label>
+		<input type="checkbox" name="checkbox">
+		<label>West Island:</label>
+		<input type="checkbox" name="checkbox">
+		</form>
+
+
+	<p>
+		<label>Price Range:
+			<select name="price">
+				<option>50</option>
+				<option>200</option>
+				<option>500</option>
+				<option>No price limit</option>
+			</select></label>
+	</p>
+
+	<p>
+		<label>Required parking number:
+			<select name="price">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></label>
+	</p>
+
+	<label>Facilities: </label>
+	<p>
+		<form>
+		<label>Pool:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Gym:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Bar:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Spa:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Restaurant:</label>
+		<input type="checkbox" name="checkbox">
+		<label>Massage:</label>
+		<input type="checkbox" name="checkbox">
+		</form>
+
+
+	<form action="action">
+		<input type="submit" name="submit">
+		<input type="reset" name="reset">
+	</form>
+	</fieldset>
+</body>
+</html>
